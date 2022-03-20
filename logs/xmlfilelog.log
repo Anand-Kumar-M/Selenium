@@ -1,0 +1,88 @@
+[INFO ] 2021-12-12 22:08:37.769 [main] tests.BaseTest - Webdriver is setup.
+[INFO ] 2021-12-12 22:08:37.778 [main] tests.BaseTest - Setup Thread ID: 1
+[DEBUG] 2021-12-12 22:08:37.872 [main] pageclass.AbstractBasePage - Opening base url
+[INFO ] 2021-12-12 22:08:39.683 [main] pageclass.AbstractBasePage - Launched Site Successfully
+[INFO ] 2021-12-12 22:08:39.704 [main] pageclass.AbstractBasePage - Page Title: BlazeDemo
+[INFO ] 2021-12-12 22:08:40.196 [main] pageclass.AbstractBasePage - Selected Item: São Paolo
+[INFO ] 2021-12-12 22:08:40.537 [main] pageclass.AbstractBasePage - Selected Item: New York
+[TRACE] 2021-12-12 22:08:40.537 [main] pageclass.AbstractBasePage - Finding Flight
+[TRACE] 2021-12-12 22:08:40.552 [main] pageclass.AbstractBasePage - Clicking on [[EdgeDriver: msedge on WINDOWS (dc0cc0aa7e98edb54c7d56eed6d6a1f3)] -> xpath: (//input[@value='Find Flights'])]
+[TRACE] 2021-12-12 22:08:40.708 [main] pageclass.AbstractBasePage - [[EdgeDriver: msedge on WINDOWS (dc0cc0aa7e98edb54c7d56eed6d6a1f3)] -> xpath: (//input[@value='Find Flights'])] Element found in page. Location: (98, 392)
+[TRACE] 2021-12-12 22:08:41.592 [main] pageclass.AbstractBasePage - [[EdgeDriver: msedge on WINDOWS (dc0cc0aa7e98edb54c7d56eed6d6a1f3)] -> tag name: h3] Element found in page. Location: (98, 72)
+[TRACE] 2021-12-12 22:08:41.625 [main] pageclass.AbstractBasePage - Search Flight Validation: Flights from São Paolo to New York:
+[TRACE] 2021-12-12 22:08:41.625 [main] pageclass.AbstractBasePage - Selecting Flight
+[TRACE] 2021-12-12 22:08:41.654 [main] pageclass.AbstractBasePage - Clicking on [[EdgeDriver: msedge on WINDOWS (dc0cc0aa7e98edb54c7d56eed6d6a1f3)] -> xpath: //table//td[contains(text(),'Lufthansa')]/preceding-sibling::td/input]
+[TRACE] 2021-12-12 22:08:41.703 [main] pageclass.AbstractBasePage - [[EdgeDriver: msedge on WINDOWS (dc0cc0aa7e98edb54c7d56eed6d6a1f3)] -> xpath: //table//td[contains(text(),'Lufthansa')]/preceding-sibling::td/input] Element found in page. Location: (106, 339)
+[TRACE] 2021-12-12 22:08:42.474 [main] pageclass.AbstractBasePage - [[EdgeDriver: msedge on WINDOWS (dc0cc0aa7e98edb54c7d56eed6d6a1f3)] -> tag name: h2] Element found in page. Location: (89, 72)
+[TRACE] 2021-12-12 22:08:42.506 [main] pageclass.AbstractBasePage - Search Flight Validation: Your flight from TLV to SFO has been reserved.
+[TRACE] 2021-12-12 22:08:42.506 [main] pageclass.AbstractBasePage - Selecting Flight
+[TRACE] 2021-12-12 22:08:42.575 [main] pageclass.AbstractBasePage - [[EdgeDriver: msedge on WINDOWS (dc0cc0aa7e98edb54c7d56eed6d6a1f3)] -> id: inputName] Element found in page. Location: (89, 359)
+[TRACE] 2021-12-12 22:08:42.713 [main] pageclass.AbstractBasePage - Following value is set for [[EdgeDriver: msedge on WINDOWS (dc0cc0aa7e98edb54c7d56eed6d6a1f3)] -> id: inputName]: Anand
+[TRACE] 2021-12-12 22:08:42.780 [main] pageclass.AbstractBasePage - [[EdgeDriver: msedge on WINDOWS (dc0cc0aa7e98edb54c7d56eed6d6a1f3)] -> id: address] Element found in page. Location: (89, 434)
+[TRACE] 2021-12-12 22:08:42.999 [main] pageclass.AbstractBasePage - Following value is set for [[EdgeDriver: msedge on WINDOWS (dc0cc0aa7e98edb54c7d56eed6d6a1f3)] -> id: address]: 13 A Street
+[TRACE] 2021-12-12 22:08:43.087 [main] pageclass.AbstractBasePage - [[EdgeDriver: msedge on WINDOWS (dc0cc0aa7e98edb54c7d56eed6d6a1f3)] -> id: city] Element found in page. Location: (89, 509)
+[TRACE] 2021-12-12 22:08:43.323 [main] pageclass.AbstractBasePage - Following value is set for [[EdgeDriver: msedge on WINDOWS (dc0cc0aa7e98edb54c7d56eed6d6a1f3)] -> id: city]: Bangalore
+[TRACE] 2021-12-12 22:08:43.422 [main] pageclass.AbstractBasePage - [[EdgeDriver: msedge on WINDOWS (dc0cc0aa7e98edb54c7d56eed6d6a1f3)] -> id: state] Element found in page. Location: (89, 584)
+[TRACE] 2021-12-12 22:08:43.677 [main] pageclass.AbstractBasePage - Following value is set for [[EdgeDriver: msedge on WINDOWS (dc0cc0aa7e98edb54c7d56eed6d6a1f3)] -> id: state]: Karnataka
+[TRACE] 2021-12-12 22:08:43.781 [main] pageclass.AbstractBasePage - [[EdgeDriver: msedge on WINDOWS (dc0cc0aa7e98edb54c7d56eed6d6a1f3)] -> id: zipCode] Element found in page. Location: (89, 659)
+[TRACE] 2021-12-12 22:08:44.007 [main] pageclass.AbstractBasePage - Following value is set for [[EdgeDriver: msedge on WINDOWS (dc0cc0aa7e98edb54c7d56eed6d6a1f3)] -> id: zipCode]: 560001
+[TRACE] 2021-12-12 22:08:44.093 [main] pageclass.AbstractBasePage - [[EdgeDriver: msedge on WINDOWS (dc0cc0aa7e98edb54c7d56eed6d6a1f3)] -> id: creditCardNumber] Element found in page. Location: (89, 809)
+[TRACE] 2021-12-12 22:08:44.300 [main] pageclass.AbstractBasePage - Following value is set for [[EdgeDriver: msedge on WINDOWS (dc0cc0aa7e98edb54c7d56eed6d6a1f3)] -> id: creditCardNumber]: 1234567891011
+[TRACE] 2021-12-12 22:08:44.401 [main] pageclass.AbstractBasePage - [[EdgeDriver: msedge on WINDOWS (dc0cc0aa7e98edb54c7d56eed6d6a1f3)] -> id: creditCardMonth] Element found in page. Location: (89, 884)
+[TRACE] 2021-12-12 22:08:44.630 [main] pageclass.AbstractBasePage - Following value is set for [[EdgeDriver: msedge on WINDOWS (dc0cc0aa7e98edb54c7d56eed6d6a1f3)] -> id: creditCardMonth]: 12
+[TRACE] 2021-12-12 22:08:44.703 [main] pageclass.AbstractBasePage - [[EdgeDriver: msedge on WINDOWS (dc0cc0aa7e98edb54c7d56eed6d6a1f3)] -> id: creditCardYear] Element found in page. Location: (89, 959)
+[TRACE] 2021-12-12 22:08:44.897 [main] pageclass.AbstractBasePage - Following value is set for [[EdgeDriver: msedge on WINDOWS (dc0cc0aa7e98edb54c7d56eed6d6a1f3)] -> id: creditCardYear]: 2025
+[TRACE] 2021-12-12 22:08:44.998 [main] pageclass.AbstractBasePage - [[EdgeDriver: msedge on WINDOWS (dc0cc0aa7e98edb54c7d56eed6d6a1f3)] -> id: nameOnCard] Element found in page. Location: (89, 1034)
+[TRACE] 2021-12-12 22:08:45.182 [main] pageclass.AbstractBasePage - Following value is set for [[EdgeDriver: msedge on WINDOWS (dc0cc0aa7e98edb54c7d56eed6d6a1f3)] -> id: nameOnCard]: Anand Kumar
+[TRACE] 2021-12-12 22:08:45.183 [main] pageclass.AbstractBasePage - Purchase Flight
+[TRACE] 2021-12-12 22:08:45.202 [main] pageclass.AbstractBasePage - Clicking on [[EdgeDriver: msedge on WINDOWS (dc0cc0aa7e98edb54c7d56eed6d6a1f3)] -> xpath: //input[@value='Purchase Flight']]
+[TRACE] 2021-12-12 22:08:45.310 [main] pageclass.AbstractBasePage - [[EdgeDriver: msedge on WINDOWS (dc0cc0aa7e98edb54c7d56eed6d6a1f3)] -> xpath: //input[@value='Purchase Flight']] Element found in page. Location: (89, 1114)
+[TRACE] 2021-12-12 22:08:46.098 [main] pageclass.AbstractBasePage - [[EdgeDriver: msedge on WINDOWS (dc0cc0aa7e98edb54c7d56eed6d6a1f3)] -> tag name: h1] Element found in page. Location: (149, 132)
+[TRACE] 2021-12-12 22:08:46.132 [main] pageclass.AbstractBasePage - Search Flight Validation: Thank you for your purchase today!
+[INFO ] 2021-12-12 22:08:52.524 [main] tests.BaseTest - Driver is quit.
+[INFO ] 2021-12-12 22:09:37.714 [main] tests.BaseTest - Webdriver is setup.
+[INFO ] 2021-12-12 22:09:37.715 [main] tests.BaseTest - Setup Thread ID: 1
+[DEBUG] 2021-12-12 22:09:37.723 [main] pageclass.AbstractBasePage - Opening base url
+[INFO ] 2021-12-12 22:09:39.202 [main] pageclass.AbstractBasePage - Launched Site Successfully
+[INFO ] 2021-12-12 22:09:39.220 [main] pageclass.AbstractBasePage - Page Title: BlazeDemo
+[ERROR] 2021-12-12 22:09:39.394 [main] pageclass.AbstractBasePage - Unable to Search Flight: From: São Paoloed To: New York
+[ERROR] 2021-12-12 22:10:09.617 [main] pageclass.AbstractBasePage - Error in finding element. Proxy element for: DefaultElementLocator 'By.tagName: h3'Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.tagName: h3' (tried for 30 second(s) with 500 milliseconds interval)
+[ERROR] 2021-12-12 22:10:09.618 [main] pageclass.AbstractBasePage - Search Result screen is not displayed
+[INFO ] 2021-12-12 22:10:16.024 [main] tests.BaseTest - Driver is quit.
+[INFO ] 2021-12-12 22:10:43.573 [main] tests.BaseTest - Webdriver is setup.
+[INFO ] 2021-12-12 22:10:43.573 [main] tests.BaseTest - Setup Thread ID: 1
+[DEBUG] 2021-12-12 22:10:43.579 [main] pageclass.AbstractBasePage - Opening base url
+[INFO ] 2021-12-12 22:10:45.971 [main] pageclass.AbstractBasePage - Launched Site Successfully
+[INFO ] 2021-12-12 22:10:45.978 [main] pageclass.AbstractBasePage - Page Title: BlazeDemo
+[INFO ] 2021-12-12 22:10:46.352 [main] pageclass.AbstractBasePage - Selected Item: São Paolo
+[INFO ] 2021-12-12 22:10:46.662 [main] pageclass.AbstractBasePage - Selected Item: New York
+[TRACE] 2021-12-12 22:10:46.662 [main] pageclass.AbstractBasePage - Finding Flight
+[TRACE] 2021-12-12 22:10:46.684 [main] pageclass.AbstractBasePage - Clicking on [[EdgeDriver: msedge on WINDOWS (8d35847d4aea23a897e34aacabde7912)] -> xpath: (//input[@value='Find Flights'])]
+[TRACE] 2021-12-12 22:10:46.773 [main] pageclass.AbstractBasePage - [[EdgeDriver: msedge on WINDOWS (8d35847d4aea23a897e34aacabde7912)] -> xpath: (//input[@value='Find Flights'])] Element found in page. Location: (98, 392)
+[TRACE] 2021-12-12 22:10:47.519 [main] pageclass.AbstractBasePage - [[EdgeDriver: msedge on WINDOWS (8d35847d4aea23a897e34aacabde7912)] -> tag name: h3] Element found in page. Location: (98, 72)
+[TRACE] 2021-12-12 22:10:47.556 [main] pageclass.AbstractBasePage - Search Flight Validation: Flights from São Paolo to New York:
+[TRACE] 2021-12-12 22:10:47.557 [main] pageclass.AbstractBasePage - Selecting Flight
+[ERROR] 2021-12-12 22:10:47.578 [main] pageclass.AbstractBasePage - Unable to Select Flight: FlightName: Lufthansaes
+[ERROR] 2021-12-12 22:11:17.718 [main] pageclass.AbstractBasePage - Error in finding element. Proxy element for: DefaultElementLocator 'By.tagName: h2'Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.tagName: h2' (tried for 30 second(s) with 500 milliseconds interval)
+[ERROR] 2021-12-12 22:11:17.718 [main] pageclass.AbstractBasePage - Reserved Flight screen is not displayed
+[INFO ] 2021-12-12 22:11:24.255 [main] tests.BaseTest - Driver is quit.
+[INFO ] 2021-12-12 22:11:34.151 [main] tests.BaseTest - Webdriver is setup.
+[INFO ] 2021-12-12 22:11:34.151 [main] tests.BaseTest - Setup Thread ID: 1
+[DEBUG] 2021-12-12 22:11:34.159 [main] pageclass.AbstractBasePage - Opening base url
+[INFO ] 2021-12-12 22:11:37.967 [main] pageclass.AbstractBasePage - Launched Site Successfully
+[INFO ] 2021-12-12 22:11:37.979 [main] pageclass.AbstractBasePage - Page Title: BlazeDemo
+[INFO ] 2021-12-12 22:11:38.305 [main] pageclass.AbstractBasePage - Selected Item: São Paolo
+[INFO ] 2021-12-12 22:11:38.610 [main] pageclass.AbstractBasePage - Selected Item: New York
+[TRACE] 2021-12-12 22:11:38.610 [main] pageclass.AbstractBasePage - Finding Flight
+[TRACE] 2021-12-12 22:11:38.636 [main] pageclass.AbstractBasePage - Clicking on [[EdgeDriver: msedge on WINDOWS (2e723474c4a724dda551db60f3310806)] -> xpath: (//input[@value='Find Flights'])]
+[TRACE] 2021-12-12 22:11:38.729 [main] pageclass.AbstractBasePage - [[EdgeDriver: msedge on WINDOWS (2e723474c4a724dda551db60f3310806)] -> xpath: (//input[@value='Find Flights'])] Element found in page. Location: (98, 392)
+[TRACE] 2021-12-12 22:11:39.558 [main] pageclass.AbstractBasePage - [[EdgeDriver: msedge on WINDOWS (2e723474c4a724dda551db60f3310806)] -> tag name: h3] Element found in page. Location: (98, 72)
+[TRACE] 2021-12-12 22:11:39.587 [main] pageclass.AbstractBasePage - Search Flight Validation: Flights from São Paolo to New York:
+[TRACE] 2021-12-12 22:11:39.587 [main] pageclass.AbstractBasePage - Selecting Flight
+[TRACE] 2021-12-12 22:11:39.607 [main] pageclass.AbstractBasePage - Clicking on [[EdgeDriver: msedge on WINDOWS (2e723474c4a724dda551db60f3310806)] -> xpath: //table//td[contains(text(),'Lufthansa')]/preceding-sibling::td/input]
+[TRACE] 2021-12-12 22:11:39.655 [main] pageclass.AbstractBasePage - [[EdgeDriver: msedge on WINDOWS (2e723474c4a724dda551db60f3310806)] -> xpath: //table//td[contains(text(),'Lufthansa')]/preceding-sibling::td/input] Element found in page. Location: (106, 339)
+[TRACE] 2021-12-12 22:11:40.667 [main] pageclass.AbstractBasePage - [[EdgeDriver: msedge on WINDOWS (2e723474c4a724dda551db60f3310806)] -> tag name: h2] Element found in page. Location: (89, 72)
+[TRACE] 2021-12-12 22:11:40.697 [main] pageclass.AbstractBasePage - Search Flight Validation: Your flight from TLV to SFO has been reserved.
+[ERROR] 2021-12-12 22:12:10.800 [main] pageclass.AbstractBasePage - Error in finding element. Proxy element for: DefaultElementLocator 'By.tagName: h1'Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.tagName: h1' (tried for 30 second(s) with 500 milliseconds interval)
+[ERROR] 2021-12-12 22:12:10.801 [main] pageclass.AbstractBasePage - Confirmation screen is not displayed
+[INFO ] 2021-12-12 22:12:17.196 [main] tests.BaseTest - Driver is quit.

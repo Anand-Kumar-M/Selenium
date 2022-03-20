@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite1</th></tr>
+<tr><td><a href="#t0">TestPractice</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">277,841</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite1</th></tr></tbody><tbody id="t0"><tr><th colspan="4">TestPractice &#8212; failed</th></tr><tr class="failedeven"><td rowspan="3">com.learn.blazedemo.tests.SearchFlight</td><td><a href="#m0">tc_02_testBookFlight</a></td><td rowspan="1">1639327177715</td><td rowspan="1">31904</td></tr><tr class="failedeven"><td><a href="#m1">tc_03_testBookFlight</a></td><td rowspan="1">1639327243574</td><td rowspan="1">34145</td></tr><tr class="failedeven"><td><a href="#m2">tc_04_testBookFlight</a></td><td rowspan="1">1639327294152</td><td rowspan="1">36649</td></tr><tr><th colspan="4">TestPractice &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.learn.blazedemo.tests.SearchFlight</td><td><a href="#m3">tc_01_testBookFlight</a></td><td rowspan="1">1639327117781</td><td rowspan="1">8351</td></tr></tbody>
+</table>
+<h2>TestPractice</h2><h3 id="m0">com.learn.blazedemo.tests.SearchFlight#tc_02_testBookFlight</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Launched site Successfully<br/>Unable to Search Flight: From: São Paoloed To: New York, Cannot locate option with text: São Paoloed
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'ANAND', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
+Driver info: driver.version: unknown<br/>Search Result screen is not displayed</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Search Result is Empty expected [Flights from São Paolo to New York:] but found []
+	at com.learn.blazedemo.tests.SearchFlight.tc_02_testBookFlight(SearchFlight.java:46)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+	at com.intellij.rt.execution.application.AppMainV2.main(AppMainV2.java:131)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.learn.blazedemo.tests.SearchFlight#tc_03_testBookFlight</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Launched site Successfully<br/>Searched Flights: From: São Paolo To: New York<br/>Unable to Select Flight: FlightName: Lufthansaes : no such element: Unable to locate element: {"method":"xpath","selector":"//table//td[contains(text(),'Lufthansaes')]/preceding-sibling::td/input"}
+  (Session info: MicrosoftEdge=96.0.1054.53)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'ANAND', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [8d35847d4aea23a897e34aacabde7912, findElement {using=xpath, value=//table//td[contains(text(),'Lufthansaes')]/preceding-sibling::td/input}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 96.0.1054.53, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:1515}, msedge: {msedgedriverVersion: 96.0.1054.43 (dca8292d0a7a9..., userDataDir: C:\Users\anand\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:1515/devtool..., se:cdpVersion: 96.0.1054.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8d35847d4aea23a897e34aacabde7912<br/>Reserved Flight screen is not displayed</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Reservation Form is not displayed expected [Your flight from TLV to SFO has been reserved.] but found []
+	at com.learn.blazedemo.tests.SearchFlight.tc_03_testBookFlight(SearchFlight.java:71)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+	at com.intellij.rt.execution.application.AppMainV2.main(AppMainV2.java:131)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.learn.blazedemo.tests.SearchFlight#tc_04_testBookFlight</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Launched site Successfully<br/>Searched Flights: From: São Paolo To: New York<br/>Successfully selected. Airline: Lufthansa<br/>Confirmation screen is not displayed</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Confirmation Screen is not displayed expected [Thank you for your purchase today!] but found []
+	at com.learn.blazedemo.tests.SearchFlight.tc_04_testBookFlight(SearchFlight.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+	at com.intellij.rt.execution.application.AppMainV2.main(AppMainV2.java:131)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.learn.blazedemo.tests.SearchFlight#tc_01_testBookFlight</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Launched site Successfully<br/>Searched Flights: From: São Paolo To: New York<br/>Successfully selected. Airline: Lufthansa<br/>Filled in the details and Clicked on Purchase Flight</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

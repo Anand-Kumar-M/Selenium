@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Suite1" >
+  <test thread-count="1" name="TestPractice" parallel="none" >
+    <classes>
+      <class name="com.learn.blazedemo.tests.SearchFlight"/>
+</classes>
+</test> <!-- TestPractice -->
+</suite> <!-- Suite1 -->

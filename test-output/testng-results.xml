@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="1" failed="3" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Launched site Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Searched Flights: From: São Paolo To: New York]]>
+    </line>
+    <line>
+      <![CDATA[Successfully selected. Airline: Lufthansa]]>
+    </line>
+    <line>
+      <![CDATA[Filled in the details and Clicked on Purchase Flight]]>
+    </line>
+    <line>
+      <![CDATA[Launched site Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Unable to Search Flight: From: São Paoloed To: New York, Cannot locate option with text: São Paoloed
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'ANAND', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
+Driver info: driver.version: unknown]]>
+    </line>
+    <line>
+      <![CDATA[Search Result screen is not displayed]]>
+    </line>
+    <line>
+      <![CDATA[Launched site Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Searched Flights: From: São Paolo To: New York]]>
+    </line>
+    <line>
+      <![CDATA[Unable to Select Flight: FlightName: Lufthansaes : no such element: Unable to locate element: {"method":"xpath","selector":"//table//td[contains(text(),'Lufthansaes')]/preceding-sibling::td/input"}
+  (Session info: MicrosoftEdge=96.0.1054.53)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'ANAND', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [8d35847d4aea23a897e34aacabde7912, findElement {using=xpath, value=//table//td[contains(text(),'Lufthansaes')]/preceding-sibling::td/input}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 96.0.1054.53, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:1515}, msedge: {msedgedriverVersion: 96.0.1054.43 (dca8292d0a7a9..., userDataDir: C:\Users\anand\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:1515/devtool..., se:cdpVersion: 96.0.1054.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8d35847d4aea23a897e34aacabde7912]]>
+    </line>
+    <line>
+      <![CDATA[Reserved Flight screen is not displayed]]>
+    </line>
+    <line>
+      <![CDATA[Launched site Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Searched Flights: From: São Paolo To: New York]]>
+    </line>
+    <line>
+      <![CDATA[Successfully selected. Airline: Lufthansa]]>
+    </line>
+    <line>
+      <![CDATA[Confirmation screen is not displayed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-12-12T22:07:39 IST" name="Suite1" finished-at="2021-12-12T22:12:17 IST" duration-ms="277841">
+    <groups>
+    </groups>
+    <test started-at="2021-12-12T22:07:39 IST" name="TestPractice" finished-at="2021-12-12T22:12:17 IST" duration-ms="277841">
+      <class name="com.learn.blazedemo.tests.SearchFlight">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.learn.blazedemo.tests.SearchFlight@6436a7db]" started-at="2021-12-12T22:07:39 IST" name="setup" finished-at="2021-12-12T22:08:37 IST" duration-ms="58332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc_01_testBookFlight()[pri:0, instance:com.learn.blazedemo.tests.SearchFlight@6436a7db]" started-at="2021-12-12T22:08:37 IST" name="tc_01_testBookFlight" description="Search flight and register a passenger" finished-at="2021-12-12T22:08:46 IST" duration-ms="8351" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Launched site Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Searched Flights: From: São Paolo To: New York]]>
+            </line>
+            <line>
+              <![CDATA[Successfully selected. Airline: Lufthansa]]>
+            </line>
+            <line>
+              <![CDATA[Filled in the details and Clicked on Purchase Flight]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc_01_testBookFlight -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.learn.blazedemo.tests.SearchFlight@6436a7db]" started-at="2021-12-12T22:08:46 IST" name="tearDown" finished-at="2021-12-12T22:08:52 IST" duration-ms="6389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.learn.blazedemo.tests.SearchFlight@6436a7db]" started-at="2021-12-12T22:08:52 IST" name="setup" finished-at="2021-12-12T22:09:37 IST" duration-ms="45190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc_02_testBookFlight()[pri:0, instance:com.learn.blazedemo.tests.SearchFlight@6436a7db]" started-at="2021-12-12T22:09:37 IST" name="tc_02_testBookFlight" description="Search flight with Invalid Source or Destination" finished-at="2021-12-12T22:10:09 IST" duration-ms="31904" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Search Result is Empty expected [Flights from São Paolo to New York:] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Search Result is Empty expected [Flights from São Paolo to New York:] but found []
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at com.learn.blazedemo.tests.SearchFlight.tc_02_testBookFlight(SearchFlight.java:46)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at com.intellij.rt.execution.application.AppMainV2.main(AppMainV2.java:131)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Launched site Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Unable to Search Flight: From: São Paoloed To: New York, Cannot locate option with text: São Paoloed
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'ANAND', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
+Driver info: driver.version: unknown]]>
+            </line>
+            <line>
+              <![CDATA[Search Result screen is not displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc_02_testBookFlight -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.learn.blazedemo.tests.SearchFlight@6436a7db]" started-at="2021-12-12T22:10:09 IST" name="tearDown" finished-at="2021-12-12T22:10:16 IST" duration-ms="6397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.learn.blazedemo.tests.SearchFlight@6436a7db]" started-at="2021-12-12T22:10:16 IST" name="setup" finished-at="2021-12-12T22:10:43 IST" duration-ms="27548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc_03_testBookFlight()[pri:0, instance:com.learn.blazedemo.tests.SearchFlight@6436a7db]" started-at="2021-12-12T22:10:43 IST" name="tc_03_testBookFlight" description="Invalid Airline Specified" finished-at="2021-12-12T22:11:17 IST" duration-ms="34145" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Reservation Form is not displayed expected [Your flight from TLV to SFO has been reserved.] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Reservation Form is not displayed expected [Your flight from TLV to SFO has been reserved.] but found []
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at com.learn.blazedemo.tests.SearchFlight.tc_03_testBookFlight(SearchFlight.java:71)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at com.intellij.rt.execution.application.AppMainV2.main(AppMainV2.java:131)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Launched site Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Searched Flights: From: São Paolo To: New York]]>
+            </line>
+            <line>
+              <![CDATA[Unable to Select Flight: FlightName: Lufthansaes : no such element: Unable to locate element: {"method":"xpath","selector":"//table//td[contains(text(),'Lufthansaes')]/preceding-sibling::td/input"}
+  (Session info: MicrosoftEdge=96.0.1054.53)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'ANAND', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [8d35847d4aea23a897e34aacabde7912, findElement {using=xpath, value=//table//td[contains(text(),'Lufthansaes')]/preceding-sibling::td/input}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 96.0.1054.53, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:1515}, msedge: {msedgedriverVersion: 96.0.1054.43 (dca8292d0a7a9..., userDataDir: C:\Users\anand\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:1515/devtool..., se:cdpVersion: 96.0.1054.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8d35847d4aea23a897e34aacabde7912]]>
+            </line>
+            <line>
+              <![CDATA[Reserved Flight screen is not displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc_03_testBookFlight -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.learn.blazedemo.tests.SearchFlight@6436a7db]" started-at="2021-12-12T22:11:17 IST" name="tearDown" finished-at="2021-12-12T22:11:24 IST" duration-ms="6535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.learn.blazedemo.tests.SearchFlight@6436a7db]" started-at="2021-12-12T22:11:24 IST" name="setup" finished-at="2021-12-12T22:11:34 IST" duration-ms="9895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc_04_testBookFlight()[pri:0, instance:com.learn.blazedemo.tests.SearchFlight@6436a7db]" started-at="2021-12-12T22:11:34 IST" name="tc_04_testBookFlight" description="No Confirmation Form" finished-at="2021-12-12T22:12:10 IST" duration-ms="36649" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Confirmation Screen is not displayed expected [Thank you for your purchase today!] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Confirmation Screen is not displayed expected [Thank you for your purchase today!] but found []
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at com.learn.blazedemo.tests.SearchFlight.tc_04_testBookFlight(SearchFlight.java:95)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at com.intellij.rt.execution.application.AppMainV2.main(AppMainV2.java:131)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Launched site Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Searched Flights: From: São Paolo To: New York]]>
+            </line>
+            <line>
+              <![CDATA[Successfully selected. Airline: Lufthansa]]>
+            </line>
+            <line>
+              <![CDATA[Confirmation screen is not displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc_04_testBookFlight -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.learn.blazedemo.tests.SearchFlight@6436a7db]" started-at="2021-12-12T22:12:10 IST" name="tearDown" finished-at="2021-12-12T22:12:17 IST" duration-ms="6394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.learn.blazedemo.tests.SearchFlight -->
+    </test> <!-- TestPractice -->
+  </suite> <!-- Suite1 -->
+</testng-results>
