@@ -1,5 +1,6 @@
 [INFO ] 2021-12-12 22:08:37.769 [main] tests.BaseTest - Webdriver is setup.
 [INFO ] 2021-12-12 22:08:37.778 [main] tests.BaseTest - Setup Thread ID: 1
+[INFO ] 2021-12-12 22:08:37.778 [main] tests.BaseTest - Setup Thread ID: 1
 [DEBUG] 2021-12-12 22:08:37.872 [main] pageclass.AbstractBasePage - Opening base url
 [INFO ] 2021-12-12 22:08:39.683 [main] pageclass.AbstractBasePage - Launched Site Successfully
 [INFO ] 2021-12-12 22:08:39.704 [main] pageclass.AbstractBasePage - Page Title: BlazeDemo
